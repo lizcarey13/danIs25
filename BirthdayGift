@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bibs and Liz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+      
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+      }
+      html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+        font: 100%/1.5 -apple-system, 'BlinkMacSystemFont', 'Roboto', sans-serif;
+        text-align: center;
+      }
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
+      a {
+        color: inherit;
+      }
+        
+      u {
+        text-decoration: underline;
+        color: dodgerblue;
+        }
+        
+      .panel, .panel-group .panel-heading, .panel-collapse, .panel-body, .container, .panel-title, .panel panel-default {
+         border: none;
+         background-color: white;
+         box-shadow: none;
+      }
+      
+      .panel-default>.panel-heading+.panel-collapse>div.panel-body { 
+        border-top: 0; 
+        
+      }
+        
+      .panel-title {
+         font-size: 1.5rem;
+      }
+    
+     figure {
+         display: block;   
+         align-items: center;
+         padding: 1rem;
+         display: flex;
+         justify-content: center;
+         min-height: 100%;
+         
+        }
+        
+            
+    </style>
+  </head>
+  <body>
+      
+      <div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Happy Birthday, dan!</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body"><img src="http://33.media.tumblr.com/81fa55f7a5d6cfb9cf31a8934c5c39bd/tumblr_n0qxuc0XNW1qhweu0o1_250.gif" alt = "Pusheen cuteness" style ="width:250px;height:200px;"><br>
+      <p><em> Imitation is the sincerest form of flattery...<br>
+          and a sign of a girlfriend who no code good.</em></p></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">A<strike>n</strike> <strike>Ode</strike> Haiku to Bibs</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><p>Lying on the couch <br> With Bibs warming my buttocks <br> The greatest feeling.</p></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">More Deets on Da Pasta Class</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">With a glass of prosecco in hand and charcuterie platters at your fingertips, guests are encouraged to learn and create in a hands-on pasta making experience in <u><a href="http://www.netimeas.com/private-dining/">ne timeas restaurant group's event space, The Upstairs</a></u>. These interactive classes offer techniques for making fresh pasta for your girlfriend.  Guests will practice mixing dough, explore making pasta, with a hand-cranked pasta machine as well as shaping and filling stuffed pasta.
+
+At the end of class, participants will sit down to a three-course dinner prepared by flour + water, including wines from the regions discussed in the class. Participants will leave with fresh pasta to cook at home and a recipe book to follow so that they may cook more dinners for their girlfriend in the future.</div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <p>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Love from Liz 🐱</a>
+        </p>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><figure><img src="https://49.media.tumblr.com/b3c75a712cc1e8a656acd4a3aa2ed3fc/tumblr_nv3up8QEC01ts30cqo1_500.gif" alt= "Cat Liz"></figure></div>
+      </div>
+    </div>
+  </div> 
+</div>
+  </body>
+</html>
